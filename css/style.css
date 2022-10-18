@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.container{
+    font-family:"Lato";
+    width: 1230px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.page{
+    line-height: 160%;
+    color: #424551;
+}
+.page__title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+.page__text{
+
+    margin-bottom: 48px;
+}
+.page__two-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.page__list{
+    margin-bottom: 40px;
+}
+.page__list ul :last-child{
+    margin-bottom: 0px;
+}
+.page__list li{
+    background: url(../img/icon/vector.svg) 0 5px no-repeat;
+    padding-left: 32px;
+    margin-bottom: 4px;
+}
+.content{
+    line-height: 160%;
+}
+.content__three-title{
+    line-height: 150%;
+    font-weight: 700;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+.content__for-title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 16px;
+}
+.content__text{
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+    margin-bottom: 32px;
+}
+.content__list{
+    margin-bottom: 32px;
+}
+.content__list li{
+    font-weight: 700;
+    margin-bottom: 4px;
+    padding-left: 24px;
+}
+.content__list ul :last-child{
+    margin-bottom: 0px;
+    background: url(../img/icon/Vector2.svg) 0 4px no-repeat;
+}
+.content__list ul :first-child{
+    background: url(../img/icon/Star.svg) 0 4px no-repeat;
+}
+.content__list ul :nth-child(2n){
+    background: url(../img/icon/Vector1.svg) 0 4px no-repeat;
+}
+.content__big-text{
+    margin-bottom: 40px;
+    color: #424551;
+}
